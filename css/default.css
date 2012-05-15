@@ -1,0 +1,352 @@
+
+/* basic html */
+* {border-collapse: collapse; margin: 0; padding: 0} 
+table {width: 100%} 
+img {border: 0; }
+
+ul {padding-left: 12px}
+ol {padding-left: 12px}
+blockquote {padding: 0 25px}
+p { margin-bottom: 15px}
+
+h5.alpha {margin-top: 5px}
+h5.pretable {margin-top: 20px}
+h5.pretable.alpha {margin-top: 5px}
+h2 .container {font-size: 11px; display: block}
+
+/* horizontal rules */
+hr {border: 0; border-bottom: 1px solid #ddd; color: #fff; font-size: 1px; line-height: 1px; height: 1px; margin: 20px 0} 
+hr.submit {margin: 20px 0}
+hr.req {border-bottom: 1px solid #ddd; margin-top: 20px; display: block !important}
+hr.nodown {margin-bottom: 0} /* less padding for block elements */
+hr.small {border:0; margin: 0 0 5px 0; _display: none}
+
+.minwidth {height: 1px !important; font-size: 1px !important; line-height: 1px !important; width: 500px}
+.noheight {height: 1px !important; font-size: 1px !important} 
+.nowrap {white-space: nowrap}
+
+/* form objects */
+select:disabled {background: #bbb} 
+
+.chk {margin: 5px 5px 2px 2px}
+.rdo {margin: 0 5px 0 2px}
+.txt {padding: 2px}
+.pass {padding: 2px}
+.date {padding: 1px}
+.btn {padding: 4px 12px 3px}
+.btn.inline {padding: 2px 10px; font-size: 14px}
+.full {width: 100%}
+
+/* standard utility */
+.paddown {margin-bottom: 15px}
+.padup {margin-top: 15px}
+.padboth {margin-top: 15px; margin-bottom: 15px}
+.paddownbig {margin-bottom: 30px}
+.padupbig {margin-top: 30px}
+.padbothbig {margin-top: 30px; margin-bottom: 30px}
+
+.clear {clear: both}
+.clearleft {clear: left}
+.clearright {clear: right}
+.clean {clear: both}
+
+.relative {position: relative}
+.absolute {position: absolute}
+.left {float: left; z-index: 50}
+.right {float: right; z-index: 50}
+
+.debug {padding: 40px; background: #f00; font-size: 25px; text-align: center; color: #fff}
+.debugarray {border: 2px solid #666}
+.debugarray td {padding: 4px; font: normal 11px arial; border: 1px solid #ddd}
+
+/* browser fixes */
+.hidden .listout {_width: 99%} /* IE6 Hidden Table Padding Fix */
+
+/* misc features */
+
+.security {background: #fff; padding: 5px; margin-top: 6px}
+.rownew select {margin-top: 10px}
+.caching {margin-bottom: 15px}
+.cacheready {margin-bottom: 15px}
+
+.filterset {padding: 4px 4px !important; width: 99% !important}
+.loaderhidden {background: url(../img/loader-hidden-light.gif); height: 32px; width: 32px}
+.indent {margin-left: 30px}
+
+.orderup {background: url(../img/arrow_up.gif); height: 10px; width:14px}
+.orderdown {background: url(../img/arrow_down.gif); height: 10px; width:14px}
+
+.titletool {margin-left: 50px}
+.titletool .sel {background: #666; color: #fff; padding: 2px 4px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;  }
+
+.deleteconfirm {text-align: right; color: #b90000}
+.deleteconfirm .yes {background: #000; color: #fff; padding: 3px 8px; -moz-border-radius: 3px; -webkid-border-radius: 3px; border-radius: 3px} 
+.deleteconfirm .no {background: #000; color: #fff; padding: 3px 8px; -moz-border-radius: 3px; -webkid-border-radius: 3px; border-radius: 3px} 
+.deleteconfirm a {color: #fff}
+
+.inlinenotice    {background: #ffffcc; border: 1px solid #ffff11; margin-top: 15px; padding: 12px; position: relative; -moz-border-radius: 9px; -webkit-border-radius: 9px; border-radius: 9px}
+.inlinenoticeoff {background: transparent url(../img/icon/trash.png) no-repeat 0 0; height: 16px; position: absolute; right: 6px; top: 6px; width: 16px}
+
+/* project tools */
+.projtools .intro {background: #ffc; border: 1px solid #ff1; margin-top: 15px; padding: 12px; -moz-border-radius: 9px; -webkit-border-radius: 9px; border-radius: 9px}
+#toolbox {margin: 0 0 30px 0}
+#toolbox .rollmenu {padding: 12px 0; position: relative}
+#toolboxshow.rollmenu {margin: 0 0 10px 0}
+#toolboxhide.rollmenu {margin: 0}
+
+/* roll menus */
+.rollmenu {margin: 0; float: left; width: 600px}
+.rollmenu a {background: url(../img/roll.png) no-repeat scroll left bottom #fff; border: 1px solid #ddd; height: 32px; width: 294px; padding: 14px 0 0; margin:0 4px 4px 0; display: block; float: left; text-decoration: none; -moz-border-radius: 6px; position: relative}
+.rollmenu a:hover {background: url(../img/roll-hover.png) no-repeat left bottom #dfdfdf !important}
+.rollmenu a .handle {background: url(../img/roll-handle.png) top right no-repeat; display: block; height: 20px; width: 20px; padding: 0; position: absolute; right: 0; top: 0}
+.rollmenu h3 {width: 500px; color: #000; display: block; float: left; font-size: 110%}
+.rollmenu h5 {background: transparent; color: #333; font-size: 13px; margin: 0; padding: 0 0 0 38px}
+.rollmenu .desc {background: transparent; color: #999; font: normal 11px/18px arial, sans-serif; margin: 0; padding: 0 0 0 32px; overflow: hidden}
+.rollmenu img {position: absolute; left: 14px; top: 15px; border: 0}
+
+.rollmenusmall {margin: 0 0 20px 0; float: left; width: 600px}
+.rollmenusmall a {background: url(../img/roll.png) bottom left repeat-x #fff; border: 1px solid #ddd; width: 160px; _width: 170px; padding: 8px 6px 6px 6px; cursor: pointer; margin: 0 8px 8px 0; float: left; text-decoration: none; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+.rollmenusmall a:hover {background: #dfdfdf !important; border: 1px solid #ccc}
+.rollmenusmall h3 {width: 500px; display: block; float: left; font-size: 100%}
+.rollmenusmall h5 {margin: 0 0 0 8px; font-weight: normal}
+.rollmenusmall img {position: relative; left: -6px; _position: fixed; _margin-right: 6px; float: left}
+
+#toolboxdefault {margin: -10px 0 0 0}
+#toolboxdefault a {margin: 0 10px 0 0}
+#toolboxdefault div {background: #eee; display: inline; padding: 4px 8px; color: #777; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+.toolboxempty {display: none; left: 20px; position: absolute; top: 28px}
+.toolboxheight {height: 56px}
+.toolboxdropborder {border: 1px solid #a4e9ef}
+
+.menudrop {background: #a4e9ef !important; padding: 5px 0 5px 6px !important; border: 3px solid #81e0e9; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px }
+.menudropborder {border: 0px solid #81e0e9}
+.menudropoff {background: #a4e9ef; border: 3px solid #81e0e9; padding: 12px; margin-top: 15px; -moz-border-radius: 9px; -webkit-border-radius: 9px; border-radius: 9px}
+
+.placeholder {background: url(../img/roll-hover.png) no-repeat left top #dfdfdf !important; _height: 52}
+
+/* ---- wiki */
+.wikiheader, .wikifooter {color: #888; margin: 15px 0; padding: 0}
+.wikibody {margin: 15px 0; line-height: 1.8}
+
+.wikieditnow a {color: #000; background: url(../img/button-edit.png) top left repeat-x #cacaca; border: 1px solid #bfbfbf; text-align: center; padding: 9px 0; margin: 15px 0; display: block; text-decoration: none;  font-size: 16px; -moz-border-radius: 4px}
+.wikieditnow a:hover {border: 1px solid #000; color: #000}
+.wikiauthor {background: #ffc; color: #883; border: 1px solid #dd6; padding: 6px 12px; text-align: center; margin: 15px 0; font-size: 90%; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+.wikilocked {background: #a1c9e0; color: #3462a3; border: 1px solid #61b6df; padding: 6px 0; margin: 15px 0 0 0; text-align: center; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+.wikiunapproved {background: #d2691e; color: #fff; border: 1px solid #954c15; padding: 6px 0; margin: 15px 0 0 0; text-align: center; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+.wikideactivated {background: #888; color: #000; border: 1px solid #666; padding: 6px 0; margin: 15px 0 0 0; text-align: center; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+.wikiunapprovededits {background: #; color: #444; border: 1px solid #aaa; padding: 6px 0; margin: 15px 0 0 0; text-align: center; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+
+.wikiview .thread .post .author, .wikiview .thread .post .postdate {width: 20%}
+.wikiview .thread .post .message, .wikiview .thread .post .tools  {width: 70%}
+.wikiview #pagecomments .hidden {background: transparent; padding: 0; margin: 0}
+.wikiview .firstcomment {margin-bottom: 15px; margin-top: 20px; font-size: 130%}
+.wikiview .post .postdate {font-size: 11px}
+.wikiview .widthnarrow .message img {max-width: 350px}
+.wikiview .widthwide .message img {max-width: 460px} 
+
+.wikiview .tabs {margin-bottom: 0; margin-top: 35px}
+.wikiview .tabs a {color: #fff; background: #666; border-color: #333; padding: 10px 12px 15px 12px; text-decoration: underline; font-size: 15px; border-style: solid; border-width: 1px 1px 0 1px; margin-right: 8px; -moz-border-radius: 5px 5px 0 0}
+.wikiview .tabs .sel {background: #ffe; border-color: #dda; color: #000}
+.wikiedit .tabs {margin-bottom: 0; margin-top: 35px}
+.wikiedit .tabs a {color: #fff; background: #666; border-color: #333; padding: 10px 12px 15px 12px; text-decoration: underline; font-size: 15px; border-style: solid; border-width: 1px 1px 0 1px; margin-right: 8px; -moz-border-radius: 5px 5px 0 0}
+.wikiedit .tabs .sel {background: #ffe; border-color: #dda; color: #000}
+.wikibody.diff {background: #ffe; border: 1px solid #dda; padding: 8px; margin-bottom: 15px}
+.wikiconflict {background: #ffae15; color: #553700; border: 1px solid #d58b00; padding: 6px 0; margin: 15px 0 0 0; text-align: center; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+.wikiresolve  {background: #00bfff; color: #eafaff; border: 1px solid #0092bf; padding: 6px 0; margin: 15px 0 15px 0; text-align: center; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+
+.wikiedit #txtWikiBody {font-family: "courier new", serif}
+
+.wikistats .col2 {width: 300px; margin: 0 20px 0 0; float: left; display: inline}
+.wikistats .listin .row0, .wikistats .listin .row1 {padding: 6px 9px; font-size: 13px}
+.wikistats .listin .rowempty {padding: 6px 9px; font-size: 13px}
+.wikistats, wikilist .chars .smalldate {font-size: 11px; color: #666} 
+
+.wikihistory .active {background: #32cd32; color: #fff; padding: 1px 6px; font-size: 10px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px}
+.wikihistory .rejected {background: #b22222; color: #fff; padding: 1px 6px; font-size: 10px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px}
+.wikihistory .chars, .wikistats, wikilist .chars {font-size: 11px}
+.wikihistory .size, .wikilist .size, .wikistats .size {background: #ccc; color: #000; padding: 2px 4px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;  font-size: 11px} 
+
+/* general formatting (wiki now, soon for forums */
+
+.format h1, .format h2, .format h3, .format h4, .format h5, .format h6 {padding: 3px 0; margin: 0; color: #000; background: transparent}
+.format h1 {font-size: 28px}
+.format h2 {font-size: 20px}
+.format h3 {font-size: 16px}
+.format h4 {font-size: 13px}
+.format h5 {font-size: 12px}
+.format h6 {font-size: 12px}
+.format hr { border-bottom: 1px solid #ddd}
+
+.bbc_table td {border: 1px solid #ddd; padding: 6px}
+.bbc_table th {border: 1px solid #ddd; padding: 6px; background: #eee; text-align: left}
+
+.post hr { border-bottom:1px solid #ddd}
+
+/* /open opportunities */
+.open {width: 650px}
+.open .opp {padding: 15px}
+.open h3 {margin: 0 0 10px 0; font-size: 18px} 
+.open p {margin: 0}
+.open .postname {float: left}
+.open .postdate {background: #eee; color: #aaa; float: right; font-size: 12px; padding: 2px 8px}
+.open .postdesc {margin-bottom: 15px; line-height: 1.5}
+.open .social {}
+.open .more {background: url(../img/button.png); font-size: 14px; padding: 5px 12px 4px; border: 1px solid #bbb; color: #000; float: left; width: 80px; text-align: center; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px}
+.open .more a {color: #444; text-decoration: none}
+.open .rss {text-align: center; margin: 15px 0 5px 0}
+.open .unavail {color: #aaa; border: 1px solid #eee; -moz-border-radius: 4px; background: #eee}
+.open .unavail h3 {color: #aaa}
+.open .unavail .more {color: #aaa; border: 1px solid #ddd}
+
+/* string admin */
+.listin .highlight {background: #cedff1; color: #183652; border-top: 1px solid #bdd4ec}
+.highlight .unchanged {color: #fff}
+
+.stringlist .pad {padding: 12px}
+.stringlist img {margin-right: 6px}
+.stringlist textarea {width: 300px !important; height: 60px !important; min-height: 60px !important; float: left}
+.stringlist .btn {margin-top: 15px; margin-left: 10px}
+.stringlist .light {color: #ccc}
+.stringlist .highlight .light {color: #8cb3de}
+
+.pagecount {text-decoration: none; font-size: 200%; color: #fff}
+.pagecount:hover {color: #ddd}
+.pagecount div {background: #e7d743; width: 40px; padding: 8px 0; background: #275683; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px}
+
+/* hints */
+/* background: url(../img/tip.png) */
+.hint {display: block; border: 1px solid #e5b769; top left repeat-x #fff29c; color:#b18800; margin: 10px 0 0 0; padding: 8px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px}
+.hint.up {margin: 5px 0 15px 0}
+.hint.primary {border: 1px solid #ef9fff; background: #fadfff}
+.hinticon {display: inline}
+
+/* user account geo */
+.useraccount .sel {width: 200px}
+
+/* new team blocks */
+.pophide table td {}
+.pophide h5 {margin-top: 10px}
+.pophide input {margin-bottom: 10px}
+.pophide select {margin-bottom: 10px}
+.row-hide td {display: none} 
+.row-show td {display: table-cell}
+
+/* used for color picker / themes */
+.threecols {float: left; width: 30%}
+.threecols p {margin-left: 12px}
+
+/* kb checkboxes */
+.kb .chk {margin: 0 6px 0 6px}
+.kb .hidden {padding: 6px 0 !important}
+.chklist {margin-bottom: 10px}
+
+/* various fixes */
+
+table.widthwide table.widthwide {width: 100%}
+.formsection a {margin-left: 2px; padding-left: 20px} /* extended the link area to cover the form section bar open + icon*/
+.rolechange {background: #ff8c00; font-weight: bold; color: #fff; padding: 4px 12px; margin-top: 12px; width: 100%}
+
+/* notice preview tooltip fix */
+a.tooltip {text-align: left}
+a.tooltip p {margin-bottom: 8px; white-space: pre-wrap}
+
+/* pop-up calendar */
+.calendar {position:relative; display:none; border-top:2px solid #fff; border-right:2px solid #000; border-bottom:2px solid #000; border-left:2px solid #fff; color:#000; cursor:default; background:#c8d0d4; font:13px tahoma,verdana,sans-serif}
+.calendar table {width:220px; border-top:1px solid #000; border-right:1px solid #fff; border-bottom:1px solid #fff; border-left:1px solid #000; color:#000; cursor:default; background:#eee; font:13px tahoma,verdana,sans-serif}
+.calendar .button {text-align:center; padding:1px; border-top:1px solid #fff; border-right:1px solid #000; border-bottom:1px solid #000; border-left:1px solid #fff}
+.calendar .nav {background:transparent no-repeat 100% 100%}
+.calendar thead .title {font-weight:bold; padding:1px; border:1px solid #000; background:#788084; color:#fff; text-align:center}
+.calendar thead .headrow {}
+.calendar thead .daynames {}
+.calendar thead .name {border-bottom:1px solid #000; padding:2px; text-align:center; background:#e8f0f4}
+.calendar thead .weekend {color:#f00}
+.calendar thead .hilite {}
+.calendar thead .active {}
+.calendar tbody .day {width:2em; text-align:right; padding:2px 4px 2px 2px}
+.calendar tbody .day.othermonth {font-size:80%; color:#aaa}
+.calendar tbody .day.othermonth.oweekend {color:#faa}
+.calendar table .wn {padding:2px 3px 2px 2px; border-right:1px solid #000; background:#e8f4f0}
+.calendar tbody .rowhilite td {background:#d8e4e0}
+.calendar tbody .rowhilite td.wn {background:#c8d4d0}
+.calendar tbody td.hilite {font-weight: bold; border:0px solid; border-color:#fff #000 #000 #fff}
+.calendar tbody td.active {border:1px solid; border-color:#000 #fff #fff #000}
+.calendar tbody td.selected {font-weight:bold; padding:2px 2px 0 2px; border:1px solid; border-color:#000 #fff #fff #000; background:#d8e0e4}
+.calendar tbody td.weekend {color:#f00}
+.calendar tbody td.today {font-weight:bold; color:#0000ff}
+.calendar tbody .disabled {color:#999}
+.calendar tbody .emptycell {visibility:hidden}
+.calendar tbody .emptyrow {display:none}
+.calendar tfoot .footrow {}
+.calendar tfoot .ttip {padding:1px; border:1px solid #000; color:#fff; text-align:center; background:#e8f0f4; background:#788084}
+.calendar tfoot .hilite {border-top:1px solid #fff; border-right:1px solid #000; border-bottom:1px solid #000; border-left:1px solid #fff; padding:1px; background:#d8e0e4}
+.calendar tfoot .active {padding:2px 0 0 2px; border-top:1px solid #000; border-right:1px solid #fff; border-bottom:1px solid #fff; border-left:1px solid #000}
+.calendar .combo {position:absolute; display:none; width:4em; top:0px; left:0px; cursor:default; border-top:1px solid #fff; border-right:1px solid #000; border-bottom:1px solid #000; border-left:1px solid #fff; background:#d8e0e4; font-size:90%; padding:1px; z-index:90}
+.calendar .combo .label,
+.calendar .combo .label-iefix {text-align:center; padding:1px}
+.calendar .combo .label-iefix {width:4em}
+.calendar .combo .active {background:#c8d0d4; padding:0px; border-top:1px solid #000; border-right:1px solid #fff; border-bottom:1px solid #fff; border-left:1px solid #000}
+.calendar .combo .hilite {background:#048; color:#aef}
+.calendar td.time {border-top:1px solid #000; padding:1px 0; text-align:center; background:#e8f0f4}
+.calendar td.time .hour,
+.calendar td.time .minute,
+.calendar td.time .ampm {padding:0px 3px 0 4px; border:1px solid #888899; font-weight:bold; background:#fff}
+.calendar td.time .ampm {text-align:center}
+.calendar td.time .colon {padding:0px 2px 0 3px; font-weight:bold}
+.calendar td.time span.hilite {border-color:#000; color:#fff; background:#667}
+.calendar td.time span.active {border-color:#f00; color:#0f0; background:#000}
+
+/* forum emoticons */
+
+/*
+.forumkey {border: 1px solid #ddd; padding: 5px; background: #eee; margin-top: 20px}
+.forumkey div {display: inline; padding: 0 22px; text-align: left; white-space: nowrap}
+.forumkey .unread {padding: 0 22px 0 0}
+.forumformat b {background: #eee; padding: 1px 1px; margin: 0 2px}
+*/
+
+/* file uploads */
+
+.listin .rownew td {padding: 0}
+iframe.upload {width:100%; height:0px; border:0px; margin:0px}
+#page_status_bar {width:100%; height:20px; border:1px outset rgb(242,242,242); background-color:#efebde}
+#page_status_bar tr td{border:1px inset rgb(242,242,242)}
+#list_body {width: 100%}
+#list_body tr td{font-size: 11px; line-height:16px; border: 0; height: 16px; padding: 0 0 0 4px; vertical-align:middle}
+#list_body .on {background: rgb(234,244,255)}
+.upload_filename {	color: rgb(0,0,0); 	font-weight: bold; font-size: 12px}
+.upload_stats {color: rgb(100,100,100); font-size: 10px}
+
+/* jquery color picker */
+/*
+.colorwrapper {position: relative; height: 40px}
+.colorselector {position: absolute; top: 0; left: 96px; width: 22px; height: 22px}
+.colorselector div {border: 1px solid #aaa; margin: 0; padding: 0; position: absolute; top: 0; left: 0; width: 20px; height: 20px; background: url(colorpicker/select_dn.png) no-repeat bottom right}
+.colorpicker {width: 356px; height: 176px; overflow: hidden; position: absolute; background: url(colorpicker/colorpicker_background.png); font-family: arial, helvetica, sans-serif; display: none}
+.colorpicker_color {width: 150px; height: 150px; left: 14px; top: 13px; position: absolute; background: #f00; overflow: hidden; cursor: crosshair}
+.colorpicker_color div {position: absolute; top: 0; left: 0; width: 150px; height: 150px; background: url(colorpicker/colorpicker_overlay.png)}
+.colorpicker_color div div {position: absolute; top: 0; left: 0; width: 11px; height: 11px; overflow: hidden; background: url(colorpicker/colorpicker_select.gif); margin: -5px 0 0 -5px}
+.colorpicker_hue {position: absolute; top: 13px; left: 171px; width: 35px; height: 150px; cursor: n-resize}
+.colorpicker_hue div {position: absolute; width: 35px; height: 9px; overflow: hidden; background: url(colorpicker/colorpicker_indic.gif) left top; margin: -4px 0 0 0; left: 0}
+.colorpicker_new_color {position: absolute; width: 60px; height: 30px; left: 213px; top: 13px; background: #f00}
+.colorpicker_current_color {position: absolute; width: 60px; height: 30px; left: 283px; top: 13px; background: #f00}
+.colorpicker input {background-color: transparent; border: 1px solid transparent; position: absolute; font-size: 10px; font-family: arial, helvetica, sans-serif; color: #898989; top: 4px; right: 11px; text-align: right; margin: 0; padding: 0; height: 15px}
+.colorpicker_hex {position: absolute; width: 72px; height: 22px; background: url(colorpicker/colorpicker_hex.png) top; left: 212px; top: 142px}
+.colorpicker_hex input {right: 6px}
+.colorpicker_field {height: 22px; width: 62px; background-position: top; position: absolute}
+.colorpicker_field span {position: absolute; width: 12px; height: 22px; overflow: hidden; top: 0; right: 0; cursor: n-resize}
+.colorpicker_rgb_r {background-image: url(colorpicker/colorpicker_rgb_r.png); top: 52px; left: 212px}
+.colorpicker_rgb_g {background-image: url(colorpicker/colorpicker_rgb_g.png); top: 82px; left: 212px}
+.colorpicker_rgb_b {background-image: url(colorpicker/colorpicker_rgb_b.png); top: 112px; left: 212px}
+.colorpicker_hsb_h {background-image: url(colorpicker/colorpicker_hsb_h.png); top: 52px; left: 282px}
+.colorpicker_hsb_s {background-image: url(colorpicker/colorpicker_hsb_s.png); top: 82px; left: 282px}
+.colorpicker_hsb_b {background-image: url(colorpicker/colorpicker_hsb_b.png); top: 112px; left: 282px}
+.colorpicker_submit {position: absolute; width: 22px; height: 22px; background: url(colorpicker/colorpicker_submit.png) top; left: 322px; top: 142px; overflow: hidden}
+.colorpicker_focus {background-position: center}
+.colorpicker_hex.colorpicker_focus {background-position: bottom}
+.colorpicker_submit.colorpicker_focus {background-position: bottom}
+.colorpicker_slider {background-position: bottom}
+*/
+
+/* UTILITIES */
+
+.hide { display: none; }

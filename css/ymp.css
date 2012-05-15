@@ -1,0 +1,36 @@
+
+/*#swfproxy { position: absolute; top: 0pt; left: 20px;"}*/
+
+#ymp-btn-min { display: none; }
+#player_box { background: #ccc; height: 300px; position: relative; width: 700px; }
+
+#ymp-player { height: 71px; top: 10px !important; z-index: 9990 !important; }
+
+/* Player background color */
+#ymp-player .ymp-color-main, #ymp-tray .ymp-color-tray { background-color: #2F437C !important; }
+
+/* Player text color */
+#ymp-player .ymp-color-text-main { color: #000000 !important; }
+
+#ymp-relevance         { display: none !important; }
+#ymp-body { width: 520px !important; }
+#ymp-body #ymp-control { left: 14px !important; }
+#ymp-body #ymp-volume  { left: 124px !important; }
+#ymp-body #ymp-meta, #ymp-tray { left: 150px !important; }
+#ymp-body #ymp-meta-image { left: 3px !important; }
+#ymp-body #ymp-body-base  { width: 510px !important; } /* base is 10px less than body */
+#ymp-body #ymp-body-strip { background: #444 !important; width: 507px !important; } /* strip is 3px less than base */
+#ymp-tray { top: 50px !important; z-index: 9999 !important; }
+
+
+/* #ymp-player .ymp-color-text-main { color: #000000 !important; } */
+
+/* Default color for playlist entries */
+#ymp-tray .ymp-tray-track { color: #FFCE0C !important; }
+
+/* Highlighted track */
+#ymp-tray .ymp-tray-track:hover { color: #FFFFFF !important; background-color: transparent !important; }
+
+/* Currently playing track */
+#ymp-tray .ymp-tray-track.playing,
+#ymp-tray .ymp-tray-track.playing:hover { color: #FFFFFF !important; background-color: #777777 !important; }

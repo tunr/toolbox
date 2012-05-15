@@ -1,0 +1,336 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Project Tools</title>
+
+<link rel="stylesheet" href="css/default.css" type="text/css">
+<link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+
+<script language="javascript" type="text/javascript" src="js/header.js"></script>
+<script language="javascript" type="text/javascript" src="js/javascript.js"></script>
+<script language="javascript" type="text/javascript" src="js/jquery-1.js"></script>
+<script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="js/hint.js"></script>
+<script language="javascript" type="text/javascript" src="js/session.js"></script>
+<script language="javascript" type="text/javascript" src="js/jquery-ui-1.js"></script>
+<script language="javascript" type="text/javascript" src="js/toolbox.js"></script>
+
+</head><body class="proj pageid3071" onkeydown="recordUserActivity();"><div id="LightBoxBG" onclick="return false;"></div><div id="LightBox"></div>
+<div id="MessageBox"></div><div class="fullpage">
+
+<form id="myform" name="myform" action="/project/resources.html?cap=5FF1FAE01F3342349877FF4A923A69E2" method="post">
+
+<div class="pageheaderbox">
+<table class="pageheader">
+<tbody><tr>
+<td nowrap="nowrap"><a name="top"></a><div class="logo">&nbsp;</div>
+<h1>Widget Pro Beta</h1><div class="sitedesc"></div>
+</td>
+<td valign="bottom" align="right">
+
+<table><!--userinfo-->
+<tbody><tr>
+  <td class="projjump" align="right" nowrap="nowrap">Your Projects:
+  <select id="DefaultProjectID" name="DefaultProjectID" onchange="document.location='/project/home.html?cap=' + this.value">
+  <option value="{F5571A91-8053-4E0F-949A-1D9EFF70F027}">Basic Project</option>
+  <option value="{F217B62F-EBB0-4853-86AB-FB4BEA635350}">Cosine Pro Beta</option>
+  <option value="{1C6CBF09-3040-440A-9E43-4F28594EA78E}">Stainless 2010 Beta</option>
+  <option value="{D7C60007-FF84-460A-9637-6519343D35CB}">Tangent 2010 Alpha</option>
+  <option value="{39849E75-B8DD-4E48-9709-DA583F381335}">Vandelay Beta</option>
+  <option value="{5FF1FAE0-1F33-4234-9877-FF4A923A69E2}" selected="selected">Widget Pro Beta</option>
+  <option value="{A8694305-5707-4371-90CD-5BE2D9A903AA}">Widget Pro Beta (Par...</option>
+  <option value="{1502A083-8B18-4240-8552-8212B2D79023}">Widget Pro Beta (Rou...</option>
+  <option value="{555A40DE-2139-4A72-9C65-F496BE41892C}">Widget Pro Beta 2</option>
+
+   </select>
+  </td>
+</tr>
+      
+<tr>
+<td class="userinfo" align="right" nowrap="nowrap"><span class="loggedin">Logged In: <a href="http://www.centercodedemo.com/user/general.html" title="Click here to adjust your personal settings.">Project Manager</a></span></td>
+</tr>
+<tr>
+<td height="6"></td>
+</tr>
+</tbody>
+</table> <!--userinfo-->
+
+</td>
+</tr>
+</tbody>
+</table> <!--pageheader-->
+
+</div>
+<div class="bartopbox">
+<table class="bartop">
+<tbody><tr>
+<td class="barl"></td>
+<td class="barm bartrail" align="left" nowrap="nowrap"><div class="location">&nbsp;<a href="http://www.centercodedemo.com/home.html">Home</a> &gt; <a href="http://www.centercodedemo.com/project/home.html?cap=5FF1FAE01F3342349877FF4A923A69E2">Widget Pro Beta</a> &gt; Project Tools&nbsp;</div></td>
+
+<td class="barm barkb" align="right">
+
+<input id="searchenter" name="searchenter" value="" type="hidden">
+<input autocomplete="off" name="stxt" id="stxt" size="18" class="txt" tabindex="10" onkeypress="do_tab(event, 'goproj');" onkeyup="iTimeID=doTimeDec(iTimeID);" type="text">
+<select name="sarea" id="sarea" tabindex="10" class="sel">
+<option value="0" selected="selected" class="opt">Global</option>
+<option value="1" class="opt">Feedback</option>
+<option value="2" class="opt">Surveys</option>
+<option value="3" class="opt">Content</option>
+<option value="9" class="opt">Wikis</option>
+<option value="4" class="opt">Releases</option>
+<option value="5" class="opt">User Forums</option>
+<option value="8" class="opt">Users</option>
+</select>
+<input name="search" value="Search" tabindex="10" onclick="location.href='/project/kb/kb.html?cap=5FF1FAE01F3342349877FF4A923A69E2&amp;kbas='+escape(C$('stxt').value)+'&amp;kbaa='+C$('sarea')[C$('sarea').selectedIndex].value" class="btn inline" type="button">
+<a class="advanced" href="http://www.centercodedemo.com/project/kb/kb.html?cap=5FF1FAE01F3342349877FF4A923A69E2">Advanced</a><span id="autoCompleted" class="clsAutoCompleted"></span>
+
+</td>
+
+<td class="barr"></td>
+</tr>
+</tbody></table>
+</div> <!-- bartopbox -->
+<table>
+<tbody><tr>
+<td class="leftnavback" valign="top">
+
+<div class="navset project">
+
+<div class="navout">
+<div class="navin">
+<ul class="nav">
+<li class="head projectmanagement">Project Management</li>
+<li class="sel"><a href="#" class="itemseltxt">Project Tools</a></li>
+<li id="menu_16" class="menu_sort"><a href="#" class="itemtxt">Users</a></li>
+<li id="menu_17" class="menu_sort"><a href="#" class="itemtxt">Reports</a></li>
+<li style="display: none;" id="menusortbase"></li></ul>
+</div>
+</div>
+
+<div class="navout">
+<div class="navin">
+<ul class="nav">
+<li class="head givefeedback">Give Feedback</li>
+<li><a href="#" class="itemtxt">Submit a Bug</a></li>
+<li><a href="#" class="itemtxt">Submit a Suggestion</a></li>
+</ul>
+</div>
+</div>
+
+<div class="navout">
+<div class="navin">
+<ul class="nav">
+<li class="head trackfeedback">Track Feedback</li>
+<li><a href="#" class="itemtxt">Track Bugs</a></li>
+<li><a href="#" class="itemtxt">Track Suggestions</a></li>
+</ul>
+</div>
+</div>
+
+<div class="navout">
+<div class="navin">
+<ul class="nav">
+<li class="head wikis">Wikis</li>
+<li><a href="#" class="itemtxt">Beta Docs</a></li>
+</ul>
+</div>
+</div>
+
+<div class="navout">
+<div class="navin">
+<ul class="nav">
+<li class="head resources">Resources</li>
+<li><a href="#" class="itemtxt">User Forums</a></li>
+<li><a href="#" class="itemtxt">Agreements</a></li>
+<li><a href="#" class="itemtxt">Beta Releases</a></li>
+<li><a href="#" class="itemtxt">Test Content</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--navset-->
+
+<img src="/s.gif" class="leftnavwidth noheight" alt="" height="1"></td>
+
+<td class="bbl" valign="top"><div class="btl">&nbsp;</div></td>
+<td class="bodyarea" valign="top">
+
+<h2><span class="left">Project Tools <span class="pagetitlelink">(<a href="#">Homepage</a>)</span></span> <span class="right pagetitlelink"><a href="http://www.centercodedemo.com/project/resources.html?cap=5FF1FAE01F3342349877FF4A923A69E2&amp;sort=1">Enable Layout Mode</a></span><div class="clear"></div></h2>
+<hr class="small">
+<div class="projtools">
+<div id="Hint_1" class="hint primary" style="display: none;">
+<div>Project tools hint</div></div>
+<div id="toolbox">
+<div id="toolboxshow" class="rollmenu">
+
+<a href="http://www.centercodedemo.com/project/survey/admin/list.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_2" name="Surveys" class="toolboxitem">
+<h5><img src="/surveys.png">Surveys</h5>
+<p class="desc">Conduct detailed questionnaires</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/task/admin/default.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_9" name="Tasks" class="toolboxitem">
+<h5><img src="/tasks.png">Tasks</h5>
+<p class="desc">Create activities for users to complete</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/feedback/admin/list.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_3" name="Feedback" class="toolboxitem">
+<h5><img src="/feedback.png">Feedback</h5>
+<p class="desc">Offer bug reports, suggestions, etc.</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/forum/admin/default.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_10" name="Forums" class="toolboxitem">
+<h5><img src="/userforums.png">Forums</h5>
+<p class="desc">Moderate user discussion boards</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/version/admin/default.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_8" name="Releases" class="toolboxitem">
+<h5><img src="/versions.png">Releases</h5>
+<p class="desc">Distribute Releases and Serial Numbers</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/article/admin/default.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_1" name="Content" class="toolboxitem">
+<h5><img src="/content.png">Content</h5>
+<p class="desc">Post news, agreements, and other content</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/notice/admin/default.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_5" name="Notices" class="toolboxitem">
+<h5><img src="/notices.png">Notices</h5>
+<p class="desc">Automate your user experience</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/email/default.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_11" name="E-mail" class="toolboxitem">
+<h5><img src="/e-mail.png">E-mail</h5>
+<p class="desc">Create templates and monitor E-mail logs</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/callout/default.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_4" name="Recruitments" class="toolboxitem">
+<h5><img src="/recruitment.png">Recruitments</h5>
+<p class="desc">Build and manage project user recruitments</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/newsletter/admin/alter.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_13" name="Newsletter" class="toolboxitem">
+<h5><img src="/newsletter.png">Newsletter</h5>
+<p class="desc">Newsletter</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/wiki/list.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_20" name="Wikis" class="toolboxitem">
+<h5><img src="/basicproperties.png">Wikis</h5>
+<p class="desc">Manage wikis for this project</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/reporting/admin/list.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_17" name="Reports" class="toolboxitem">
+<h5><img src="/report.png">Reports</h5>
+<p class="desc">Manage reports for the project</p><span></span>
+</a>
+
+<span style="display: none;" class="toolboxempty">No tools are shown</span></div><div class="clear"></div> <!-- rollmenu --> 
+<div class="clear"></div>
+
+<div class="formsection clear"><div><img src="/toggle-open.png"> 
+<a href="javascript:showDrop('toolboxhide');" tabindex="10">Hidden Tools</a>
+</div>
+</div>
+
+<div style="display: none;" id="toolboxhide" class="rollmenu hidden">
+<a href="http://www.centercodedemo.com/project/access.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_14" name="Roles" class="toolboxitem">
+<h5><img src="/communityroles.png">Roles</h5>
+<p class="desc">Manage roles for this project</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/template.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_19" name="Project Template" class="toolboxitem">
+<h5><img src="/basicproperties.png">Project Template</h5>
+<p class="desc">Manage this Project Template</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/team/default.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_7" name="Teams" class="toolboxitem">
+<h5><img src="/communityteams.png">Teams</h5>
+<p class="desc">Manage Teams for the project</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/menu/admin/default.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_6" name="Menu" class="toolboxitem">
+<h5><img src="/menu.png">Menu</h5>
+<p class="desc">Customize the menu for this project</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/homepage/admin/alter.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_12" name="Homepage" class="toolboxitem">
+<h5><img src="/homepage.png">Homepage</h5>
+<p class="desc">Homepage</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/definition.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_18" name="Project" class="toolboxitem">
+<h5><img src="/basicproperties.png">Project</h5>
+<p class="desc">Manage the project definition</p><span></span>
+</a>
+
+<a href="http://www.centercodedemo.com/project/users/default.html?cap=5FF1FAE01F3342349877FF4A923A69E2" id="tool_16" name="Users" class="toolboxitem">
+<h5><img src="/addbyname.png">Users</h5>
+<p class="desc">Manage users for this project</p><span></span>
+</a>
+
+<span style="display: none;" class="toolboxempty">No tools are hidden</span></div><div class="clear"></div> <!-- rollmenu --> 
+<div class="clear"></div>
+<div id="Hint_2" class="hint " style="display: none;">
+<div>Hiden tools hint</div></div>
+</div>
+<div id="toolboxdefault">
+<a href="#">Use Current Settings as Default</a>
+<div>Set by Project Manager <span title="Oct 28, 2009">Last Month</span></div>
+</div>
+<div id="Hint_3" class="hint down padup" style="display: none;">
+<div>Set default tools hint</div></div>
+<hr>
+<div class="nextback"><h5>What Now?</h5>
+<ul class="nextstep">
+<li><a href="#">Return to Project Homepage</a></li>
+</ul>
+</div>
+</div> <!-- projtools -->
+
+<div class="minwidth"></div>
+
+</td>
+<td class="bbr" valign="top"><div class="btr">&nbsp;</div></td>
+<td class="rightnavback" valign="top">&nbsp;</td>
+</tr>
+</tbody></table>
+
+<div class="barbottombox">
+<table class="barbottom">
+<tbody><tr>
+<td class="barl"></td>
+<td class="barm bartrail" nowrap="nowrap"><div class="location">&nbsp;<a href="http://www.centercodedemo.com/home.html">Home</a> &gt; <a href="http://www.centercodedemo.com/project/home.html?cap=5FF1FAE01F3342349877FF4A923A69E2">Widget Pro Beta</a> &gt; Project Tools&nbsp;</div></td>
+<td class="barm barlinks" valign="middle" align="right" nowrap="nowrap">
+<span class="tools">
+</span><a href="http://www.centercodedemo.com/login.html?action=logout">Log Out</a>
+
+</td>
+<td class="barr"></td>
+</tr>
+</tbody></table>
+</div> <!-- barbottombox -->
+
+<div class="pagefooterbox">
+<div class="footerl">
+
+© 2001-2009 <span style="color: rgb(227, 74, 52);">Center</span><span style="color: rgb(248, 154, 62);">code</span>. Powered by Connect 9.
+
+</div> <!-- left -->
+<div class="footerr">
+
+<a href="#">Privacy Policy</a>
+
+</div> <!-- right -->
+</div> <!-- footerarea -->
+
+<div class="utility1"></div>
+<div class="utility2"></div>
+
+</form>
+
+</div> <!-- fullpage -->
+
+<!--HITS: 1 - TIME: 1.328s COMMUNITYID: {3D5057A3-47CD-495D-9522-DE56043506BB}-->
+
+</body></html>

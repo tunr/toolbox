@@ -1,0 +1,588 @@
+/*
+centercode support 2009 theme - 07.7.09 @ 6pm, connect 9 refresh
+*/ 
+
+hr { border: 0; margin-top: 0; }
+hr.submit {border: 0; border-bottom: 1px solid #ddd; color: #fff; font-size: 1px; line-height: 1px; height: 1px; margin: 20px 0} 
+
+/* basic type */
+
+body {font: normal 13px/18px "Lucida Grande","Trebuchet MS", Verdana, sans-serif; background: #fff; color: #000}
+td {font: normal 13px/18px "Lucida Grande","Trebuchet MS", Verdana, sans-serif; color: #000}
+.mcecontentbody {font: normal 13px/18px "Lucida Grande","Trebuchet MS", Verdana, sans-serif; color: #000; background: #fff; margin: 3px; padding: 0}
+.mcecontentbody p {margin: 3px; padding: 0}
+
+/* standard html */
+
+a {color: #306883}
+a:hover {text-decoration: none; color: #666;}
+
+ul li {background: url(../img/bullet.gif) no-repeat 0 9px; line-height: 200%; list-style-type: none; padding-left: 12px}
+ol li {list-style-type: decimal; line-height: 200%; margin-left: 24px}
+
+h1 {font: bold 22px georgia, arial, sans-serif}
+h2 {color: #fff; background-color: #1A6E9A; font: normal 22px georgia, arial, sans-serif; padding: 8px 10px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;}
+xxh2 {color: #2f5275; font: bold 24px arial, sans-serif; min-width: 400px}
+h3 {color: #000; font: normal 20px georgia, arial, sans-serif; margin: 20px 0 5px 0}
+h5 {color: #000; font: normal 14px georgia, arial, sans-serif; margin: 15px 0 5px 0}
+
+h2 .standout {color: #ffa; }
+h5.pretable {margin-bottom: 8px; }
+
+select {background: #fff; color: #444; font: 13px arial, sans-serif; border: 1px solid #ccc; padding: 1px}
+option {background: #fff; color: #444; padding-right: 10px}
+textarea {background: #fff; color: #444; font: normal 13px arial, sans-serif; border: 1px solid #ccc; padding: 3px}
+input {color: #333; font: normal 13px arial}
+
+.txt,.pass,.date {background: #fff; border: 1px solid #ccc}
+.btn {background: url(../img/button.png); font-size: 16px; border: 1px solid #bbb; color: #000; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;}
+.btn:hover {border: 1px solid #666}
+.btn.inline {font-size: 14px; background: url(../img/button-inline.png)}
+
+/* page header */
+
+.pageheaderbox {background: url(../img/body.png) top left repeat-x}
+.pageheaderbox h1, .sitedesc, .pagedesc {display: none}
+.pageheader {color: #000; background: url(../img/logo.png) no-repeat bottom left; height: 100px; padding: 5px 10px}
+.pagetitlelink {font-size: 60%; color: #fff; font-weight: normal; letter-spacing: 0; }
+.pagetitlelink a {color: #ffc}
+.pagetitlelink a:hover {color: #ffa}
+.dyn {display: block; margin-top: 15px}
+.projjump, .userinfo {color: #aaa; padding: 0 20px 8px}
+.userinfo { padding-bottom: 15px; }
+
+/* navigation bars */
+
+.location {padding: 10px 0}
+.barl, .barr {display: none}
+.barm {background: #444; color: #fff; padding: 0 20px}
+.barm a {color: #fff}
+.barm a:hover {color: #fff}
+
+.bartop .btn {font-size: 13px; padding: 1px 5px 1px 4px; _padding: 0 4px; margin: 0 4px 0 0}
+.bartop #stxt {font-size: 13px; width: 150px; height: 22px; padding: 2px}
+.bartop #sarea {height: 22px; font-size: 13px}
+
+.bartop {border-bottom: 20px solid #eee; }
+.barbottom {border-top: 10px solid #eee; }
+
+/* ajax popdowns */
+
+.realtimedrop {right: 20px; position: absolute; margin-top: 2px; width: 480px; z-index: 95}
+.realtimedrop a {color: #666}
+.realtimedrop a:hover {color: #666}
+.mergeuserdrop {right: -150px; position: absolute; margin-top: 0; width: 800px; z-index: 95; border-color: #dfdfdf #bababa #bababa #dfdfdf; border-style: solid; border-width: 1px}
+
+/* left nav */
+  
+.leftnavback {background: #eee; padding: 0 0 0 15px; width: 170px}
+.leftnavwidth {width: 175px}
+
+/* left menu */
+
+.nav {padding: 0; margin: 0 0 15px 0; width: 160px}
+.nav li {list-style: none; list-style-image: none; background: url(../img/row.png) bottom left repeat-x #fff; padding: 0 0 0 6px; border-width: 0px 1px 1px 1px; border-style: solid; border-color: #ddd;}
+.nav a {color: #333; text-decoration: none}
+.nav a:hover {text-decoration: underline; color: #1a6e9a}
+.nav .head {color: #9C350B; font-weight: bold; padding: 0 8px; border: 0; background: transparent; border-bottom: 1px solid #ddd; }
+.nav .sel {background: #e1e1e1}
+.nav .sel a {color: #444}
+.nav .sel a:hover {text-decoration: underline}
+.nav .dark {background: #333; color: #666 !important}
+
+/* body */
+
+.bodyarea {height: 100%; padding: 20px 20px 30px 20px}
+.widthnarrow {width: 500px; height: 12px; font-size: 1px}
+.widthwide {width: 650px; height: 12px; font-size: 1px}
+.widthfull {width: 100%; height: 12px; font-size: 1px}
+
+.btl {display: none; }
+.bbl {display: none; } 
+.btr {background: url(../img/shadow-corn.png) bottom right no-repeat; width: 10px; height: 10px}
+.bbr {background: url(../img/shadow-vert.png) bottom right no-repeat; width: 10px; }
+
+/* right navigation */
+
+.rightnavback {padding: 0px 15px 15px 5px; width: 100%; background: #eee}
+.rightnavbackfull {padding: 0px 0px 15px 20px; width: 220px; background: #eee}
+
+.bodyarea {background: url(../img/shadow-horz.png) bottom left no-repeat; }
+
+/* tips */
+
+.tipinner {margin-top: 0px; width: 260px}
+.tipheader {color: #9C350B; font-weight: bold; padding: 0 0 0 0; padding: 5px 8px}
+.tip {color: #333; line-height: 1.4; background: #fff; padding: 8px; background: #fff; border: 1px solid #ddd; margin-bottom: 15px; margin-right: 25px; }
+.tipadd {padding-left: 0}
+
+/* what next */
+
+.nextback {padding: 0}
+.nextback h5 {margin-top: 25px; width: 500px}
+.nextstep {margin: 8px 10px 4px 10px;}
+
+/* footer */
+
+.pagefooterbox {color: #666; padding: 8px 20px; margin-bottom: 50px;}
+.footerl {float: left; width: 40%; text-align: left}
+.footerr {float: right; width: 40%; text-align: right}
+
+/* list tables */
+
+.listout {background:  #fff; border: none}
+.listin td {padding: 10px 5px; border: 1px solid #ddd; }
+.listin td td {border-width: 0}
+.listin input {margin: 0}
+.listin h5 {margin: 2px 0}
+
+.listin .header {color: #444; background: url(header.png) top left repeat-x #ddd; padding: 6px 5px; font-weight: bold; font-size: 11px}
+.listin .header a {color: #444; background: transparent}
+.listin .header a:hover {text-decoration: none}
+
+.listin .group {background: #E34A34; color: #fff; font-weight: bold; border: 0; }
+.listin .group a {color: #fff !important; font-weight: bold}
+.listin .group a:hover {color: #ffc !important}
+.listin .group small {background: url(../img/20-dark.png); padding: 1px 5px 3px 5px; _padding: 2px 3px 4px 3px; margin-left: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px}
+
+.listin .groupoff {background: #aaa; color: #fff; font-style: italic}
+.listin .groupoff small {background: url(../img/20-dark.png); padding: 1px 5px 3px 5px; _padding: 2px 3px 4px 3px; margin-left: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px}
+.listin .groupoff a {color: #fff}
+
+.listin .row0, .listin .row1 {background: url(../img/row.png) bottom left repeat-x #fff}
+.listin .row0 small a, .listin .row1 small a {background: #228b22; color: #fff; padding: 1px 5px 3px 5px; _padding: 2px 3px 4px 3px; margin-left: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px}
+
+.listin .rowempty {background: #aaa; color: #555; padding: 6px 5px}
+.listin .rowempty a {color: #666}
+.listin .rowoff {background: #666; color: #fff; font-style: italic}
+.listin .rowoff a {color: #999}
+.listin .rowerror {background: #f00}
+
+.listin .rownew {background: #228b22; color: #fff; font-weight: bold; padding: 6px 5px}
+.listin .rownew a {color: #fff}
+
+.listin .rowall {background: #ffc !important}
+.listin .teamtype {background: #eaf2f9; border-top: 1px solid #fff}
+.listin .teamtype a {color: #2c547e}
+.listin .footer {background: #000; color: #aaa; font-weight: bold; padding: 4px 5px;}
+.listin .footer a {color: #aaa}
+
+/* info box */
+
+.msgdanger div, .msgwarning div, .msglicense div, .msginfo div {padding: 15px 15px 15px 36px; margin: 15px 0 0 0; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.msgdanger h5, .msgwarning h5, .msglicense h5, .msginfo h5 {margin: 0 0 6px 0}
+
+.msgdanger div {color: #fff; background: url(../img/icon/danger.png) 13px 17px no-repeat #ea0000; border: 1px solid #950000}
+.msgdanger a {color: #f8dbdb}
+
+.msgwarning div {color: #c2652c; background: url(../img/icon/warning.png) 13px 17px no-repeat #ffddb0; border: 1px solid #ffb55c}
+.msgwarning a {color: #8b481f}
+
+.msglicense div {color: #3462a3; background: url(../img/icon/license.png) 13px 17px no-repeat #a1c9e0; border: 1px solid #61b6df}
+.msglicense a {color: #244371}
+
+.msginfo div {color: #5b7c2c; background: url(../img/icon/info.png) 13px 17px no-repeat #c9ed9f; border: 1px solid #93c74b}
+.msginfo a {color: #749d38}
+
+.msgform div {padding: 12px; background: #fff29c; color: #bf8841; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; border: 1px solid #f1d8ae}
+.msgform h5 {color: #bf8841; margin-top: 0}
+
+.msgassume td {background: #a9e086; color: #000; padding: 18px; border-bottom: 1px solid #7bcf45}
+.msgassume a, .msgassume b {color: #000}
+
+/* floating info box */
+
+#messagebox {background: #228B22; color: #e9f4df; padding: 6px 15px; display: none; position: absolute; text-align: center; top: 33px; margin-left: 270px; z-index: 100; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;}
+#messagebox .msgtext {padding-bottom: 5px; display: inline}
+#messagebox .ok a {color: #fff; font-size: 80%}
+#messagebox .ok {display: none}
+
+/* session end light box */
+
+#lightboxbg {background: #000}
+#lightbox {display: none; position: fixed; background: #fff; color: #333; padding: 15px 15px 25px 15px; border: 1px solid #777; top: 100px; z-index: 100}
+.lightbox2 {color: #ddd; padding: 4px 0; border-top: 1px solid #777; background: #777}
+
+#lightbox li {font-size: 12px; text-align: left}
+#lightbox ul {padding-bottom: 0; margin-bottom: 0}
+#lightbox h1 {display: block; color: #fff; font-weight: bold; font-size: 20px; padding: 5px}
+#lightbox h5 {font-weight: normal}
+
+/* tooltips */
+
+a.tooltip {position:relative; z-index:24; background-color:transparent; color:#000; text-decoration:none}
+a.tooltip:hover {z-index:25; background-color:transparent}
+a.tooltip span {display: none}
+/* background: url(../img/tip.png) */
+a.tooltip:hover span {display: block; position: absolute; top: 0; left: 20px; top left repeat-x #fff29c; padding: 8px; width: 500px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+a.tooltip h5 {display: block; font-size: 12px; font-weight: normal; background: #000; color: #fff; margin: 0 0 10px 0; padding: 4px}
+a.tooltip li {margin: 0 0 0 25px}
+
+/* misc */
+
+.iframeback {margin: 0; padding: 0}
+.paging {font-size: 18px; text-align: center; margin-top: 15px; color: #ccc}
+.siteerror {padding: 25px; font-size: 120%; background: #eee}
+.loader {background: url(../img/loader-light.gif); width: 66px; height: 66px; margin: 33px}
+
+/* --- resources, recruitments, feedback types */
+
+/* standard forms */
+
+.hidden {background: #ffffbf; padding: 5px; _padding: 0px; }
+.hidden .hidden { padding: 0; }
+.hidden .listout {margin: 0}
+.hidden hr {border:0; margin-bottom: 0; }
+
+.hidden .itemhard2 { background: #fff; border-bottom: 1px solid #FFFFBF; padding-left: 5px; }
+
+/* TODO: Hidden Rework */
+
+.item {padding: 6px 0px !important; width: 50%}
+.itemhard, .itemhard2 {padding: 5px 5px; border-bottom: 1px solid #fff; background: #eee; }
+.itemhard2 { padding-left: 5px; }
+.error, .error2 {color: #a00}
+.req {color: #930}
+.light {color: #aaa; font-weight: normal}
+.standout {color: #d53d3d}
+.small {font-size: 85%; font-weight: normal}
+.line {width: 100%}
+
+/* form engine */
+
+.formblocktools {background: #eee; color: #bbb; padding: 4px; margin: 16px 0; width: 96%; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px}
+
+/* ------ 1 column */
+
+.feedbacktitle {padding: 16px 0 6px 0; font: normal 14px georgia, arial, sans-serif;}
+.feedbacktitlelarge {padding: 30px 0 3px 0; font-size: 18px; font-weight: normal}
+.feedbacktitlelit {padding: 6px; border-top: solid 12px #fff; background: #444; font-size: 15px; color: #fff; font-weight: bold; font-family: georgia}
+.feedbacktitlehide {padding: 0}
+.feedbackcontrol {padding: 0 0 10px 0}
+.feedbackanswer {padding: 6px; background: #e9e9e9; border: 1px solid #fff; margin-bottom: 10px}
+.feedbackexp {padding: 0; margin: 0; color: #666}
+.feedbackdesc {padding: 0 0 10px 0; color: #666}
+
+/* ------ 2 column */
+
+.feedbacktitle2 {padding: 10px 0 3px 0; width: 40%; vertical-align: top}
+.feedbacktitlelarge2 {padding: 10px 0; width: 40%; font-size: 18px}
+.feedbacktitlelit2 {padding: 10px 0; width: 40%; background-color: #444; color: #fff; font-weight: bold}
+.feedbacktitlehide2 {padding: 3px}
+.feedbackcontrol2 {padding: 7px 0 10px 0; vertical-align: top}
+.feedbackanswer2 {padding: 3px; background: #e9e9e9; border: 1px solid #fff; margin-bottom: 10px}
+.feedbackexample2 {padding: 0; margin: 0; color: #666; font-style: italic}
+.feedbackdesc2 {padding: 3px 0 3px 0; color: #666}
+
+.feedbackunit {color: #666}
+.fileblock {margin-top: 3px}
+.fileblock .rowempty {padding: 3px}
+.feedbackcontrol .sel {max-width: 300px}
+.feedbackcontrol2 .sel {max-width: 200px}
+.savingform {background: #999; color: #fff; padding: 12px; margin-bottom: 6px; display: block}
+
+/* --- rating scales */
+
+.rating0 {background: #ccc; padding-top: 5px; padding-bottom: 5px; border: 1px solid #fff;}
+.rating1 {background: #aaa; padding-top: 5px; padding-bottom: 5px; border: 1px solid #fff;}
+.hidden1 .rating0 {background: #ccc; padding-top: 5px; padding-bottom: 5px; }
+.hidden1 .rating1 {background: #bbb; padding-top: 5px; padding-bottom: 5px; }
+.llabel {padding-right: 5px}
+.rlabel {padding-left: 5px}
+.formna {background:#ccc}
+
+/* --- character limits */
+
+.charlimit {font-size: 80%}
+.charlimit .ok {color: #666}
+.charlimit .danger {background: #ff4500; color: #fff}
+.charlimit .zero {background: #d90000; color: #fff}
+
+/* page top toolbar */
+
+.toolbar {padding: 6px 5px 6px 5px; _padding: 6px 5px 8px 5px; background: #555; color: #fff; margin-top: 15px; margin-bottom: 0px; -moz-border-radius: 3px; -webit-border-radius: 3px; border-radius: 3px}
+.toolbar a {color: #fff; font-size: 11px; font-weight: bold; margin: 0 8px}
+.toolbar .list {color: #e1e9f3}
+.toolbar .list a {padding: 0; font-weight: bold}
+.toolbar table {width: 99%}
+.toolbar td {font-size: 11px; color: #fff}
+
+/* page sections */
+
+.formsection {background: #1A6E9A; color: #fff; font-weight: bold; padding: 7px 6px 8px 6px; line-height: 0.8; font: normal 13px georgia, arial, sans-serif; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px}
+.formsection img {margin: 3px 2px 0}
+.formsection a {background: url(../img/toggle-open.png) no-repeat 0 2px; color: #fff; text-decoration: none}
+.formsection a:hover {color: #fff; text-decoration: none}
+.formsection .light { color: #FFFFBF; }
+
+/* views and filters */
+
+.filterset {background: #eee; margin-top: 10px}
+.filterset td {padding: 6px 0; font-size: 12px}
+.filterset input {font-size: 12px}
+.filterset select {font-size: 12px}
+
+.selgroup {width: 300px}
+.selgroup .optgroup {color: #aaa; font-style: italic; padding-left: 0; background: #eee}
+.selgroup option {padding-left: 10px}
+
+.viewitems {margin-right: 10px; display: block}
+.viewitems select {width: 260px !important}
+.viewset select {width: 260px; margin-right: 10px}
+.viewsubset select {width: 260px}
+.viewsection {background: #6993c3; color: #fff}
+.modfv a {padding: 6px}
+.dyntags input {margin: 10px 0}
+
+/* drafts */
+
+.draftsaved {color: #999; padding-top: 5px}
+.draftnote {padding-top: 5px; color: #444}
+.draftload  {padding: 10px; background: #eee}
+
+/* calendar */
+
+.calendar thead .title, .calendar tfoot .ttip, .calendar thead .name {background: #6993c3; color: #fff}
+
+/* community homepage */
+
+.commhome h5.pretable {margin: 30px 0 10px 0}
+.commhome div {padding: 0; width: 100%}
+
+/* project homepage */
+
+.projhome {white-space: normal}
+.projhome .intro {white-space: normal !important; background: #fff}
+.projhome .status {font-size: 80%; color: #999}
+.projhome .loading {margin: 35px 0 45px 0; font-size: 15px; color: #999}
+.projhome .empty {margin: 35px 0 45px 0; font-size: 15px; color: #999}
+.projhome .block {margin: 0 0 2px 0; padding: 15px 12px 0 12px; border: 1px solid #ddd; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px}
+.projhome h2 {display: none}
+.projhome .content {margin: 0 4px 24px 4px}
+.projhome .header a {text-decoration: none}
+
+.projhome .tabs * {line-height: 100%; list-style: none; white-space: nowrap}
+.projhome .tabs {margin-top: 12px; margin-bottom: 4px; text-align: center; padding: 0 10px}
+.projhome .tabs ul {margin-left: 0; padding: 4px 0 5px 0}
+.projhome .tabs li {display: inline; font-weight: bold; background: transparent; margin: 0 2px; padding: 0}
+.projhome .tabs a {padding: 8px 0 7px; text-decoration: underline; -moz-border-radius: 5px 5px 0 0; background: url(../img/header.png) top left repeat-x #ddd; border-color: #ddd; border-style: solid; border-width: 1px 1px 0 1px}
+.projhome .tabs span {padding: 8px 18px; #padding: 2px 12px; _padding: 2px 12px; margin: 0 3px; font-size: 13px}
+.projhome .tabs #sel a {color: #000; background: #fff; text-decoration: none; border-top: 1px solid #ddd; border-left: 1px solid #ddd; border-right: 1px solid #ddd}
+.projhome .tabs a:hover {color: #000; background: #ccc}
+.projhome .tabs .content {margin: 0 0 15px 0}
+
+.projhome .sechead {background: #E34A34; color: #fff; padding: 5px 9px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+.projhome .sechead h3 {padding: 0; margin: 0; font-size: 13px; color: #fff}
+.projhome .sechead div {float: right; font-size: 80%; line-height: 1.5; _line-height: 1.5}
+.projhome .sechead div .sel {background: #fff; color: #000; padding: 1px 3px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px}
+.projhome .sechead a {color: #fff; padding: 1px 2px; margin: 0 2px}
+
+.projhome .secbody {margin: 12px 0}
+.projhome .forum1 {width: 100%}
+.projhome .forum2 {float: left; width: 305px}
+.projhome .leftpad {margin-left: 10px}
+.projhome .new a {color: #0a0}
+
+.projhome .dash {width: 100%}
+.projhome .dash .listin td {padding: 6px 4px; text-align: center; width: 14.2%}
+.projhome .dash .header {font-size: 11px}
+.projhome .more {background: url(../img/icon/moredark.gif) no-repeat right; height: 9px; width: 16px}
+
+.projhome .pop td {padding: 5px 10px; border: 0; border-bottom: 1px solid #ddd}
+.projhome .pop .header {border: 0}
+.projhome .pop {margin-top: 5px; color: #555; margin-bottom: 15px; *width: 622px; border: 1px solid #ddd; border-bottom: 0}
+.projhome .pop small a {color: #555; background: transparent; padding: 0}
+.projhome .pop .empty {margin: 0; padding: 10px 5px}
+
+/* knowledge base */
+
+.kbresults h5.pretable { margin-top: 30px; margin-bottom: 10px; }
+
+/* reporting */
+
+.reportview h3 {font-size: 22px; margin-top: 18px; margin-bottom: 0}
+.reportlabel {font-size: 200%}
+
+/* content/release management */
+
+.comments .group {padding: 7px; background: transparent; font-size: 70%; color: #888; font-style: italic; border-bottom: 1px solid #ddd}
+.comments .row0, .comments .row1 {border: 0; padding: 18px 6px}
+.comments .group a {color: #666 !important}
+.comments .count {background: #7dbd42; color: #fff; padding: 3px 6px; font-size: 110%; margin-right: 3px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+
+.articledate {margin-bottom: 35px}
+.articletable {padding-bottom: 15px !important}
+.articlesingle h3 {margin: 0; padding: 0 0 5px 0; font-weight: bold; font-size: 130%}
+
+.articlenumbered td {padding: 4px 0}
+
+.dv {background: #eee; padding: 6px}
+
+/* sign-ups */
+
+.signup {width: 600px}
+.captcha {border: 1px solid #aaa}
+
+/* recruitments */
+
+.biglink {font-size: 130%; font-weight: bold; margin: 15px 0}
+.biglink a {background: #eee; padding: 8px 12px; display: inline; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+
+/* tasks */
+
+.tasknormal {color: #000}
+.taskupcoming {color: #00f}
+.taskgrace {color: #ffa500}
+.tasksuccess {color: #008000}
+.taskfailure {color: #f00}
+.taskcomplete {color: #00f}
+.taskcantcomplete {color: #888}
+.taskexpired {color: #a52a2a}
+
+.taskrow {margin-top: 8px; margin-bottom: 4px; padding: 0; clear: left}
+.tasktitle {padding-left: 5px; padding-right: 5px}
+.tasktitlex {text-decoration: line-through; color: #999; padding-left: 5px; padding-right: 5px}
+.taskdesc {padding: 5px 10px}
+
+/* user forums */
+
+.unreadcount {width: 35px; display: block; background: #eee; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px}
+.lastpost {font-size: 85%}
+.rowoff .unreadcount {background: #000; }
+
+/* --- topic list */
+
+.topics .listout {border: 0}
+.topics td td {padding: 18px 8px}
+.topics .header {padding: 8px 6px}
+.topics .footer {padding: 8px 6px; font-weight: normal; font-size: 14px}
+.topics .rownew {padding: 8px 6px}
+
+.topics .replypages {font-size: 80%}
+.topics .replypages a {padding: 0 2px}
+
+.topics .read {color: #777}
+.topics .unread {color: #000; font-weight: bold}
+
+.topics .oldpost {background: #999; color: #333}
+.topics .oldpost a {color: #000}
+
+.topics .sticky {background: #3a72b3; color: #fff}
+.topics .sticky a {color: #fff}
+
+.topics .topiclink {font-size: 110%}
+.topics .author {font-size: 85%}
+.topics .sticky .unreadcount {width: 35px; display: block; background: #2f5c91; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px}
+
+/* topic status icons */
+
+.iconmod {background: url(../img/icon/mod.png) no-repeat; height: 16px; width: 18px; border:0 !important}
+.iconfile {background: url(../img/icon/download.png) no-repeat; height: 16px; width: 16px; border:0 !important}
+.iconhot {background: url(../img/icon/hottopic.png) no-repeat; height: 16px; width: 16px; border:0 !important}
+.iconsticky {background: url(../img/icon/sticky.png) no-repeat; height: 16px; width: 16px; border:0 !important}
+.iconlocked {background: url(../img/icon/locked.png) no-repeat; height: 16px; width: 16px; border:0 !important}
+.iconsubscribe {background: url(../img/icon/email.png) no-repeat; height: 16px; width: 16px; border:0 !important}
+.iconread {background: url(../img/icon/read.png) no-repeat; height: 16px; width: 16px; border:0 !important}
+
+/* --- reply pages */
+
+.thread .posts {margin-top: 10px}
+.thread .post {padding: 0; margin-bottom: 15px; padding-bottom: 15px; width: 100%; -moz-border-radius: 7px; -webkit-border-radius: 7px; border-radius: 7px; border-bottom: 1px solid #EEEEEE;}
+.thread .post .author {width: 20%; float: left; padding: 10px; font-size: 110%; }
+.thread .post .author small {display: block}
+.thread .post .message {width: 70%; float: left; padding: 10px;  }
+.thread .post .postdate {width: 20%; clear: both; padding: 6px 10px; float: left; color: #aaa; }
+.thread .post .tools {width: 70%; float: left; padding: 6px 10px;  font-size: 85%; color: #ccc; }
+.thread .post .tools a {margin: 0 2px; display: inline; width: auto; }
+.thread .post .tools span {background: #eee; padding: 6px; -moz-border-radius: 4px; display: inline; }
+.thread .post.mod {background: #d3e3f2}
+.thread .post.mod .author span {background: url(../img/icon/mod.png) 0px 1px no-repeat; padding: 2px 0 2px 20px}
+.thread .post.mod .tools span {background: #fff; padding: 6px}
+.thread .post.mod .postdate {color: #5b96ce}
+
+.post h1 {font-size: 24px; padding: 3px 0; margin: 0; color: #000; background: transparent}
+.post h2 {font-size: 20px; padding: 3px 0; margin: 0; color: #000; background: transparent}
+.post h3 {font-size: 18px; padding: 3px 0; margin: 0; color: #000; background: transparent}
+.post h4 {font-size: 16px; padding: 3px 0; margin: 0; color: #000; background: transparent}
+.post h5 {font-size: 14px; padding: 3px 0; margin: 0; color: #000; background: transparent}
+.post h6 {font-size: 12px; padding: 3px 0; margin: 0; color: #000; background: transparent}
+
+.post .bbc_ul {padding-left: 18px; list-style-type: disc}
+.post .bbc_ol_decimal {list-style-type: decimal}
+.post .bbc_ol_alpha {list-style-type: lower-alpha}
+.post .bbc_ol_decimal li {list-style-image: none; list-style-type: decimal}
+.post .bbc_ol_alpha li {list-style-image: none; list-style-type: lower-alpha}
+
+/* --- quotes */
+
+.post blockquote {padding: 8px; margin-bottom: 0; background: #ddeef4; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px}
+.post blockquote blockquote {background: #cfe7ef}
+.post blockquote blockquote blockquote {background: #ddeef4}
+.post blockquote blockquote blockquote blockquote {background: #cfe7ef}
+
+.post.mod blockquote {padding: 8px; margin-bottom: 0; background: url(../img/5-dark.png)}
+.post.mod blockquote blockquote {background: url(../img/10-dark.png)}
+.post.mod blockquote blockquote blockquote {background: url(../img/5-dark.png)}
+.post.mod blockquote blockquote blockquote blockquote {background: url(../img/10-dark.png)}
+
+/* --- other forum */
+
+.post .forumsig {margin-top: 10px; color: #aaa; font-size: 85%}
+.post.mod .forumsig {margin-top: 20px; color: #275683}
+.forumfile {background: url(../img/10-dark.png); padding: 7px; margin-top: 10px}
+.forumfile div {padding: 2px 5px 0 22px; margin-top: 0}
+.edited {margin-top: 10px; font-size: 80%}
+
+/* other */
+
+.commresources td {font-size: 12px}
+.commresources a {font-size: 14px; font-weight: bold}
+.commresources .row0 {background: #eee; border-bottom: 1px solid #fff}
+
+/* login */
+
+.login {background: url(../img/login/bg.png) top left repeat-x #fff}
+.login .pos {margin-top: 0; width: 680px; position: absolute; left: 54%; margin-left: -375px; }
+.login.new .pos {background: url(../img/login/back.png) no-repeat}
+.login.ref .pos {background: url(../img/login/back.png) no-repeat}
+.login .out {width: 680px; color: #000; }
+.login .in {padding: 0 40px 20px 40px}
+.login .in a:hover {color: #000; text-decoration: none}
+.login .header {margin-top: 200px; text-align: center;}
+.login .header .welcome {background: #f2f7fb; padding: 8px 9px; margin-top: 8px; border: 1px solid #e5eff7; -moz-border-radius: 6px}
+.login .header a {font-size: 115%; font-weight: bold; color: #b00}
+.login b {font-size: 115%; line-height: 1; color: #b00}
+
+/* --- user/pass login block */
+
+.login .exist {margin-top: 30px; text-align: left !important; height: 100px; background: #000; position: relative; -moz-border-radius: 6px; border: 2px solid #000;}
+.login .exist div {position: absolute; color: #fff}
+.login .exist div a {color: #fff}
+.login .exist div a:hover {color: #ffc; background: transparent}
+.login .exist .userlbl {top: 10px; left: 15px; font-weight: bold; font-size: 16px; color: #fff}
+.login .exist .userbox {top: 33px; left: 15px}
+.login .exist .passlbl {top: 10px; left: 255px; font-weight: bold; font-size: 16px; color: #fff}
+.login .exist .passbox {top: 33px; left: 255px}
+.login .exist .submit {top: 33px; left: 495px; _left: 485px}
+.login .exist .remchk {top: 76px; left: 16px; _top: 68px; _left: 11px}
+.login .exist .remlbl {top: 73px; left: 35px; _top: 70px; _left: 32px}
+.login .exist .trouble {top: 73px; left: 256px; _top: 68px}
+.login .exist .submit input  {font-size: 16px; background: url(../img/button.png) top left repeat-x; _font-size: 14px; padding: 4px 6px; _padding: 3px; border: 1px solid #fff; font-weight: bold}
+.login .exist .userbox input {font-size: 18px; width: 225px; padding: 4px; _padding: 0; border: 1px solid #ccc; color: #777; background: url(../img/login/input.png) top left repeat-x #fff}
+.login .exist .passbox input {font-size: 18px; width: 225px; _width: 215px; padding: 4px; _padding: 0; border: 1px solid #62c9d3; color: #b00; background: url(../img/login/input.png) top left repeat-x #fff}
+.login input:focus {background: #ffd}
+
+.login .footer {margin-top: 30px; color: #aaa; text-align: center}
+.login .error {position: absolute; z-index: 100; font-weight: bold; background: #d03a00; color: #fff; padding: 71px; font-size: 26px; text-align: center; width: 100%}
+
+/* default overrides */
+
+.listin .highlight {background: #eee; color: #666}
+.stringlist .highlight .light {color: #bbb}
+.pagetitlelink {margin-top: 6px}
+
+
+/* For VIDEO TOUR RECORDING */
+
+.taskedit textarea { height: 100px; }
+.toolbar .selgroup {width: 150px}

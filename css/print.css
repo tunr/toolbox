@@ -1,0 +1,23 @@
+
+/*
+connect print theme, 8.2009
+*/ 
+
+body {padding: 20px}
+
+.pageheaderbox {display: none}
+h2 .right {display: none}
+.bartopbox {display: none}
+.barbottombox {display: none}
+.leftnavback {display: none}
+.nextback {display: none}
+.rightnavback {display: none}
+.pagefooterarea {display: none}
+.bodyarea {background: transparent}
+.btl, .bbl.btr.bbr  {display: none}
+.noprint {display: none}
+
+/* --- wiki */
+
+.wikieditnow {display: none}
+.wikitools {display: none}
